@@ -7,7 +7,9 @@
     <!--${libpath}-->
     <!--数据库驱动jar -->
     <classPathEntry
-            location="${mysql.libpath}"/>
+            location="/Library/Maven/repo/mysql/mysql-connector-java/5.1.36/mysql-connector-java-5.1.36.jar"/>
+
+    <!--location="${mysql.libpath}"/>-->
     <!--参考 http://mybatis.github.io/generator/configreference/javaClientGenerator.html -->
     <!--<context id="TianmaTables" targetRuntime="MyBatis3">-->
     <context id="TianmaTables" targetRuntime="Ibatis2Java5">

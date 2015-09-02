@@ -65,6 +65,7 @@
                 <version>${mybatis-maven-plugin.version}</version>
                 <configuration>
                     <overwrite>true</overwrite>
+                    <!--<configurationFile>target/classes/generatorConfig.xml</configurationFile>-->
                 </configuration>
             </plugin>
         </plugins>
