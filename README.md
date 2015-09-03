@@ -9,5 +9,6 @@ mvn compile exec:java
 
 # 注意
 新增特性：
+	* 移除mybatis-generator-maven-plugin依赖
 	* 中文注释
 	* `context.targetRuntime=IbatisJava5 && javaClientGenerator.type=SPRING` 场景下，新增2个可选propery: `superClass && annotation` 用于自定义 DAOImpl的父类和注解
