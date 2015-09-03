@@ -13,5 +13,5 @@ mvn compile exec:java
 	1.  移除mybatis-generator-maven-plugin依赖
 
 	2.  生成的代码使用中文注释
-	
-	3.  `context.targetRuntime=IbatisJava5 && javaClientGenerator.type=SPRING` 场景下，新增2个可选propery: `superClass && annotation` 用于自定义 DAOImpl的父类和注解
+
+	3.  **context.targetRuntime=IbatisJava5 && javaClientGenerator.type=SPRING** 场景下，新增2个可选propery: **superClass, annotation** 用于自定义 DAOImpl的父类和注解
